@@ -14,6 +14,8 @@
 		92A20EF926D3C93A0027552C /* MemoCountAppWithCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92A20EF726D3C93A0027552C /* MemoCountAppWithCoreData.xcdatamodeld */; };
 		92A20EFB26D3C93C0027552C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A20EFA26D3C93C0027552C /* Assets.xcassets */; };
 		92A20EFE26D3C93C0027552C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A20EFC26D3C93C0027552C /* LaunchScreen.storyboard */; };
+		92A20F0826D3CAA90027552C /* MemoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A20F0626D3CAA90027552C /* MemoListItem+CoreDataClass.swift */; };
+		92A20F0926D3CAA90027552C /* MemoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A20F0726D3CAA90027552C /* MemoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		92A20EFA26D3C93C0027552C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A20EFD26D3C93C0027552C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A20EFF26D3C93C0027552C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A20F0626D3CAA90027552C /* MemoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		92A20F0726D3CAA90027552C /* MemoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		92A20EE226D3C9390027552C = {
 			isa = PBXGroup;
 			children = (
+				92A20F0C26D3CAD60027552C /* MemoListItems */,
 				92A20EED26D3C93A0027552C /* MemoCountAppWithCoreData */,
 				92A20EEC26D3C93A0027552C /* Products */,
 			);
@@ -68,6 +73,15 @@
 				92A20EF726D3C93A0027552C /* MemoCountAppWithCoreData.xcdatamodeld */,
 			);
 			path = MemoCountAppWithCoreData;
+			sourceTree = "<group>";
+		};
+		92A20F0C26D3CAD60027552C /* MemoListItems */ = {
+			isa = PBXGroup;
+			children = (
+				92A20F0726D3CAA90027552C /* MemoListItem+CoreDataProperties.swift */,
+				92A20F0626D3CAA90027552C /* MemoListItem+CoreDataClass.swift */,
+			);
+			path = MemoListItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,8 @@
 			files = (
 				92A20EF926D3C93A0027552C /* MemoCountAppWithCoreData.xcdatamodeld in Sources */,
 				92A20EF326D3C93A0027552C /* ViewController.swift in Sources */,
+				92A20F0926D3CAA90027552C /* MemoListItem+CoreDataProperties.swift in Sources */,
+				92A20F0826D3CAA90027552C /* MemoListItem+CoreDataClass.swift in Sources */,
 				92A20EEF26D3C93A0027552C /* AppDelegate.swift in Sources */,
 				92A20EF126D3C93A0027552C /* SceneDelegate.swift in Sources */,
 			);
